@@ -1,0 +1,6 @@
+h5py
+jupyter
+matplotlib
+numpy
+opinf
+scipy
