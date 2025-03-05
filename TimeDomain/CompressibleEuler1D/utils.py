@@ -279,7 +279,7 @@ def plot_traces(x, t, states, nlocs: int = 20, lifted: bool = False):
             ax.plot(t, var[i], color=c, lw=1)
 
     # Format axes.
-    axes[2].set_xlabel(r"$t\in[t_0,t_{\textrm{final}}]$")
+    axes[2].set_xlabel(r"time $t$")
     axes[2].set_xlim(t[0], t[-1])
     _euler_ylabels(fig, axes, lifted)
 
