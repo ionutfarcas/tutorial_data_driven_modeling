@@ -244,9 +244,9 @@ def plot_comparison(
 def plot_singular_values(s1, s2):
     """Plot singular value decay for the Loewner pencil matrices."""
     vstacklabel = (
-        r"$\left[\begin{array}{l}\mathbf{L}_s \\ \mathbf{L}\end{array}\right]$"
+        r"$\left[\begin{array}{l}\mathbf{L} \\ \mathbf{L}_s\end{array}\right]$"
     )
-    hstacklabel = r"$[~\mathbf{L}_s~~\mathbf{L}~]$"
+    hstacklabel = r"$[~\mathbf{L}~~\mathbf{L}_s~]$"
 
     fig, ax = plt.subplots(1, 1, figsize=(12, 4))
     ax.semilogy(
